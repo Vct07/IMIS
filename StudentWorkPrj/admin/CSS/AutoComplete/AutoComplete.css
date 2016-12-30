@@ -1,0 +1,23 @@
+﻿.floor
+{
+    position: absolute;
+    background-color:white;
+    border: 1px solid;
+    overflow: auto;
+    font-size:12px;
+    text-align:left;
+     line-height:20px;
+     
+}
+.unselected
+{
+    background-color: white;
+}
+.selected
+{
+    background-color:#c2bdbd;
+    color: white;
+    font-size:12px;
+    line-height:20px;
+    
+}

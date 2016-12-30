@@ -1,0 +1,108 @@
+2016-04-05 20:53:11 ERROR - Error
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.SqlClient.SqlException: 'Type' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 Sqlhlper.GetReader(String Query) 位置 e:\项目\Code\StudentWorkPrj\OrderLibrary\Sqlhlper.cs:行号 80
+   在 BPElement.BP_ApplyWork.GetWorkInfoApplyCount(String type) 位置 e:\项目\Code\StudentWorkPrj\OrderLibrary\AssistBE\BP_ApplyWork.cs:行号 17
+   在 admin_WorkInfoApplyList.InitData(Int32 pageindex) 位置 e:\项目\Code\StudentWorkPrj\StudentWorkPrj\admin\AssistBE\WorkInfoApplyList.aspx.cs:行号 120
+   在 admin_WorkInfoApplyList.Band() 位置 e:\项目\Code\StudentWorkPrj\StudentWorkPrj\admin\AssistBE\WorkInfoApplyList.aspx.cs:行号 34
+   在 admin_WorkInfoApplyList.Page_Load(Object sender, EventArgs e) 位置 e:\项目\Code\StudentWorkPrj\StudentWorkPrj\admin\AssistBE\WorkInfoApplyList.aspx.cs:行号 26
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.admin_assistbe_workinfoapplylist_aspx.ProcessRequest(HttpContext context) 位置 c:\Users\Maple\AppData\Local\Temp\Temporary ASP.NET Files\root\73b2689b\908d6305\App_Web_t7pmjup8.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-04-05 20:54:02 ERROR - Error
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 admin_WorkInfoApplyList.GridView1_RowDataBound(Object sender, GridViewRowEventArgs e) 位置 e:\项目\Code\StudentWorkPrj\StudentWorkPrj\admin\AssistBE\WorkInfoApplyList.aspx.cs:行号 69
+   在 System.Web.UI.WebControls.GridView.OnRowDataBound(GridViewRowEventArgs e)
+   在 System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   在 System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   在 System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   在 System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   在 System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   在 System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   在 System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   在 System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   在 System.Web.UI.WebControls.GridView.DataBind()
+   在 admin_WorkInfoApplyList.InitData(Int32 pageindex) 位置 e:\项目\Code\StudentWorkPrj\StudentWorkPrj\admin\AssistBE\WorkInfoApplyList.aspx.cs:行号 144
+   在 admin_WorkInfoApplyList.Band() 位置 e:\项目\Code\StudentWorkPrj\StudentWorkPrj\admin\AssistBE\WorkInfoApplyList.aspx.cs:行号 34
+   在 admin_WorkInfoApplyList.Page_Load(Object sender, EventArgs e) 位置 e:\项目\Code\StudentWorkPrj\StudentWorkPrj\admin\AssistBE\WorkInfoApplyList.aspx.cs:行号 26
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.admin_assistbe_workinfoapplylist_aspx.ProcessRequest(HttpContext context) 位置 c:\Users\Maple\AppData\Local\Temp\Temporary ASP.NET Files\root\73b2689b\908d6305\App_Web_qussffor.26.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-04-05 21:15:40 ERROR - Error
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.Collections.ArrayList.get_Item(Int32 index)
+   在 System.Web.UI.StateManagedCollection.System.Collections.IList.RemoveAt(Int32 index)
+   在 System.Web.UI.WebControls.DataControlFieldCollection.RemoveAt(Int32 index)
+   在 admin_WorkInfoApplyList.InitData(Int32 pageindex) 位置 e:\项目\Code\StudentWorkPrj\StudentWorkPrj\admin\AssistBE\WorkInfoApplyList.aspx.cs:行号 123
+   在 admin_WorkInfoApplyList.Button2_Click(Object sender, EventArgs e) 位置 e:\项目\Code\StudentWorkPrj\StudentWorkPrj\admin\AssistBE\WorkInfoApplyList.aspx.cs:行号 160
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.admin_assistbe_workinfoapplylist_aspx.ProcessRequest(HttpContext context) 位置 c:\Users\Maple\AppData\Local\Temp\Temporary ASP.NET Files\root\73b2689b\908d6305\App_Web_2tgjukvj.22.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-04-05 21:51:48 ERROR - Error
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 admin_UpPerson.EducationBand() 位置 e:\项目\Code\StudentWorkPrj\StudentWorkPrj\admin\AssistBE\UpPerson.aspx.cs:行号 179
+   在 admin_UpPerson.Page_Load(Object sender, EventArgs e) 位置 e:\项目\Code\StudentWorkPrj\StudentWorkPrj\admin\AssistBE\UpPerson.aspx.cs:行号 23
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.admin_assistbe_upperson_aspx.ProcessRequest(HttpContext context) 位置 c:\Users\Maple\AppData\Local\Temp\Temporary ASP.NET Files\root\73b2689b\908d6305\App_Web_icbgnhnm.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

@@ -1,0 +1,8 @@
+E:\项目\2016\BS\MSFileOA\OrderLibrary\bin\Release\BPElement.dll
+E:\项目\2016\BS\MSFileOA\OrderLibrary\bin\Release\BPElement.pdb
+E:\项目\2016\BS\MSFileOA\OrderLibrary\bin\Release\Office.dll
+E:\项目\2016\BS\MSFileOA\OrderLibrary\bin\Release\Microsoft.Office.Interop.Excel.dll
+E:\项目\2016\BS\MSFileOA\OrderLibrary\obj\Release\BPElement.csproj.ResolveComReference.cache
+E:\项目\2016\BS\MSFileOA\OrderLibrary\obj\Release\BPElement.dll
+E:\项目\2016\BS\MSFileOA\OrderLibrary\obj\Release\BPElement.pdb
+E:\项目\2016\BS\MSFileOA\OrderLibrary\obj\Release\BPElement.csprojResolveAssemblyReference.cache

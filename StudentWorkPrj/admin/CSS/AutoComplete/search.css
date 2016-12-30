@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+A:hover,A:link,A:visited {COLOR: #0000cc}
+A.noline:hover,A.noline:link,A.noline:visited {text-decoration:none}
+BODY {margin:0px;FONT-FAMILY: arial,sans-serif;font-size:100%}
+IMG {BORDER-WIDTH: 0px}
+.bluewhitebackground{height:32px;background:transparent url(../images/indextopbackground.gif) repeat-x;background-position:0px 0px;}
+P {PADDING: 0px; FONT-SIZE: 75%; MARGIN: 0px; LINE-HEIGHT: 18px}
+.linktitleleft{padding-top:3px;float:left;padding-left:4px;}
+.linktext {height:22px;font-size:75%;margin-right:0.2em;}
+.listlink{font-size:90%}
+.setlink{margin-right:0.73em;}
+input#query {border:1px solid #7E9DB9;background-color:white;font-family:Verdana;font-size:16px;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;height:1.22em;line-height:normal;padding-top:2px;}
+#menu163{width:6em;BORDER-RIGHT: #3366CC 1px solid; BORDER-TOP: #A2BAE7 1px solid; BORDER-LEFT: #A2BAE7 1px solid; BORDER-BOTTOM: #3366CC 1px solid; BACKGROUND-COLOR:#ffffff;padding:4px;line-height:180%;font-size:75%; position:absolute}
+a.redlink:link,a.redlink:visited {COLOR:#c60a00; TEXT-DECORATION: underline}
+.logintextlink{padding-right:4px; padding-top:4px; font-size:75%}
+a.fixedlink:link,a.fixedlink:visited {COLOR: #0000cc; TEXT-DECORATION: underline}
+.backgroundbord {background:#ffffff none repeat scroll 0%;border:1px solid #296EA3;padding:1px;position:relative; width:88px}
+#searchbuttonarea span {float:left;width:88px}
+.backgroundbord button {
+background:#DDE7F4 url(../images/button-bg.gif) repeat-x scroll 0%;background-position:0px 0px;
+border:0pt none;font-size:14px;height:22px;font-weight:bold;width:88px;cursor:pointer;}
+td.remindtt75 {font-size:75%; padding:2px;}
+td.remindtt752 {font-size:75%; padding-left:2px; padding-right:2px;color:#9E9E9E}
+.jstxhuitiaozuo {background-color:#EFEFF0; color:#8D9DBE; font-size:75%; padding-left:5px; padding-top:1px;}
+.jstxhuitiaoyou {background-color:#EFEFF0; color:#8D9DBE; font-size:75%; padding-right:5px;}
+.aa_highlight {background-color:#DFE9F3; color:#000000;}
+span.xukezheng, .remindpgray {color:#9E9E9E;}
+.jstxlan:hover {color:#BC2931; text-decoration:underline; }
+.jstxlan {color:#1F3A87; font-size:100%; cursor:pointer}
+.strongA{ font-weight:900}

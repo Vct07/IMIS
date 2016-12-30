@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+.zhengti{width:1000px;margin:0 auto;}
+.banner{height:80px;width:630px; float:left;}
+.logo{width:200px;height:80px;float:left;}
+.shoucang{float:left;width:170px;height:80px;font-size:12px; background:url(../img/search/SHOUCANG.gif) repeat-y;}
+.shoucang ul{ list-style:none;text-align:center;margin-top:2px;}
+.shoucang ul li{line-height:25px;}
+.shoucang a{color:#000000; text-decoration:none;}
+.shoucang a:hover{text-decoration:none;}
+
+
+.navbar{width:1000px;height:63px;margin:0 auto;clear:both;}
+#navbar1{width:1000px;height:34px; }
+#navbar1 ul{margin:0;}
+#navbar1 li{ float:left; list-style:none; margin:0 3px;margin-top:0px;}
+.navbar5{width:87px;height:26px;background:url(../img/search/6.18search_03.gif) no-repeat;text-align:center;padding-top:8px;}
+.navbar5 a{color:#000000; text-decoration:none;}
+.navbar5 a:hover{text-decoration:none;color:#FFFFFF; font-weight:bold;}
+.navbar6{
+	background:url(../img/search/6.18search_05.gif) no-repeat;
+	width:87px;
+	height:26px;
+	text-align:center;
+    color: #FFFFFF;
+	font-weight:bold;
+	padding-top:8px;
+	}
+.navbar6 a{color:#FFFFFF;text-decoration:none;}
+.navbar6 a:hover{color:#FFFFFF;text-decoration:none;}
+
+#navbar2{background:url(../img/search/6-30search_01.gif) repeat-x;width:1000px;height:29px;font-size:12px; }
+.navbar3{background:url(../img/search/search_02.gif) repeat-x;height:27px;width:650px;font-size: 12px;
+	text-indent:18px;
+	padding-top:5px;clear:both;}
+	.navbar3  a{ text-decoration:none;color:#000000;}
+	.navbar3  a:hover{color:#3399FF;}
+
+.navbar4{background:#6CB3EC;height:33px;width:650px;font-size: 12px ;color:#FFFFFF; }
+
+
+	
+
+.column-left{border:#368ce8 1px solid;width:648px;height:auto;}
+.column-left1{height:100px;width:618px;padding:10px; }
+.column-left1 .title {font-size:14px; font-weight:bold;text-indent:20px;line-height:25px;}
+.column-left1 .title a{ text-decoration:none;color:#000000;}
+.column-left1 .title a:hover{ text-decoration:underline;color:#0033FF;}
+.column-left1 .content{font-size:12px; text-indent:20px;line-height:18px;}
+.column-left1 .content a{color:#999999; text-decoration:none;}
+.column-left1 .content a:hover{color:#999999; text-decoration:underline;}
+.column-left .footer{text-align:center;font-size:12px;margin:20px 0px;}
+
+/*页面底部*/
+.footer{margin:0 auto;text-align:center;font-size:12px;margin-top:40px;}
+.footer2{margin:0 auto;text-align:center;font-size:12px;margin-top:20px;}
+

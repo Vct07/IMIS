@@ -1,0 +1,32 @@
+2016-04-08 11:08:03 ERROR - Error
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 admin_UpPerson.Button1_Click(Object sender, EventArgs e) 位置 d:\imis\StudentWorkPrj\admin\AssistBE\UpPerson.aspx.cs:行号 62
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.admin_assistbe_upperson_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v2.0.50727\Temporary ASP.NET Files\root\b19bed9b\ea6bedd6\App_Web_epvl11il.8.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-04-08 11:08:15 ERROR - Error
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 admin_UpPerson.Button1_Click(Object sender, EventArgs e) 位置 d:\imis\StudentWorkPrj\admin\AssistBE\UpPerson.aspx.cs:行号 62
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.admin_assistbe_upperson_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v2.0.50727\Temporary ASP.NET Files\root\b19bed9b\ea6bedd6\App_Web_epvl11il.8.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

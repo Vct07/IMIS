@@ -1,0 +1,20 @@
+2016-03-21 18:09:57 ERROR - Error
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Web.HttpException: 超过了最大请求长度。
+   在 System.Web.HttpRequest.GetEntireRawContent()
+   在 System.Web.HttpRequest.GetMultipartContent()
+   在 System.Web.HttpRequest.FillInFormCollection()
+   在 System.Web.HttpRequest.get_Form()
+   在 System.Web.HttpRequest.get_HasForm()
+   在 System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   在 System.Web.UI.Page.DeterminePostBackMode()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.admin_file_upfile_aspx.ProcessRequest(HttpContext context) 位置 c:\Users\Maple\AppData\Local\Temp\Temporary ASP.NET Files\root\af226712\ff476447\App_Web_tql01lmu.4.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

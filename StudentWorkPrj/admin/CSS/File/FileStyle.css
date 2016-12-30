@@ -1,0 +1,57 @@
+﻿body {
+    font-size: 12px;
+    font-style: normal;
+    color: #4d4d4d;
+    letter-spacing: 1px;
+    /* font-family: "Microsoft YaHei",; */
+    /* font-family: "宋体",Arial, Helvetica, sans-serif; */
+    font-family: "microsoft yahei", "宋体",Verdana, Arial, Helvetica, sans-serif;
+}
+.maincontentdiv {
+    /*float: right;*/
+    width: 988px;
+    display: block;
+    background-color: white;
+}
+.pagetitle {
+    width: 100%;
+    display: block;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.divmiddle {
+    width: 690px;
+    display: block;
+    padding-bottom: 15px;
+    border: none;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 15px;
+    border-spacing: 0px;
+    float: left;
+}
+.divtitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.hrlineauto {
+    height: 2px;
+    border: none;
+    border-top: 2px dotted #185598;
+    margin-top: 20px;
+}
+.divsub-heading {
+    text-align: right;
+    margin-bottom: 20px;
+}
+.lbcssgray {
+    margin-right: 20px;
+    height: 40px;
+    line-height: 40px;
+    color: #b3b3b3;
+}
